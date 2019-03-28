@@ -59,7 +59,7 @@ class IaasHandler(object):
                 const.ACTION_RESET_INSTANCES: self.conn.reset_instances,
                 const.ACTION_MODIFY_INSTANCE_ATTRIBUTES: self.conn.modify_instance_attributes,
 
-                # instances groups
+                # instance groups
                 const.ACTION_CREATE_INSTANCE_GROUPS: self.conn.create_instance_groups,
                 const.ACTION_DELETE_INSTANCE_GROUPS: self.conn.delete_instance_groups,
                 const.ACTION_JOIN_INSTANCE_GROUP: self.conn.join_instance_group,
